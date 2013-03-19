@@ -11,7 +11,6 @@ Version:        0.1.0
 @import url("../twentytwelve/style.css");
 @import url("nivo-slider/nivo-slider.css");
 
-
 .slider-wrapper {
-    margin-top: 1px;
+    margin: 5px;
 }
