@@ -1,0 +1,17 @@
+/*
+Theme Name:     Feli-Theme
+Theme URI:      http://felicelli.com/
+Description:    Child theme for the Twenty Twelve theme
+Author:         Nick Felicelli
+Author URI:     http://felicelli.com/me
+Template:       twentytwelve
+Version:        0.1.0
+*/
+
+@import url("../twentytwelve/style.css");
+@import url("nivo-slider/nivo-slider.css");
+
+
+.slider-wrapper {
+    margin-top: 1px;
+}
