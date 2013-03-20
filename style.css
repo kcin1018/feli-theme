@@ -12,5 +12,18 @@ Version:        0.1.0
 @import url("nivo-slider/nivo-slider.css");
 
 .slider-wrapper {
-    margin: 5px;
+    margin-top: 25px;
+}
+
+h1.entry-title {
+    margin-bottom: 10px;
+}
+
+.entry-sub-title {
+    color: #aaa;
+    font-size: 10pt;
+}
+
+.entry-sub-title a {
+    color: #666;
 }

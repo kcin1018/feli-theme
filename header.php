@@ -54,12 +54,6 @@ $(window).load(function() {
             <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
         </hgroup>
 
-        <nav id="site-navigation" class="main-navigation" role="navigation">
-            <h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
-            <a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
-            <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-        </nav><!-- #site-navigation -->
-
         <?php
         $headerImages = array();
         $dir = __DIR__ . '/header_images';
@@ -80,6 +74,13 @@ $(window).load(function() {
                 <?php endforeach; ?>
             </div>
         </div>
+
+        <nav id="site-navigation" class="main-navigation" role="navigation">
+            <h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
+            <a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
+            <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+        </nav><!-- #site-navigation -->
+
     </header><!-- #masthead -->
 
     <div id="main" class="wrapper">
